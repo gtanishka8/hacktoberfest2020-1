@@ -9,7 +9,7 @@ for num in range(no_range[0], no_range[1] + 1):
     temp = num
     while temp > 0:
         digit = temp % 10
-        sum += digit **3
+        sum += digit**3
         temp //= 10
     if sum == num:
         print(num)
